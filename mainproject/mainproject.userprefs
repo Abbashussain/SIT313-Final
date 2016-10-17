@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{D90A4AE0-2187-41BF-B7E4-D230E5E0D6FE}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="mainproject/packages.config" Line="7" Column="12" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="mainproject/Books.cs" Line="34" Column="1" />
+      <File FileName="mainproject/App.xaml.cs" Line="11" Column="54" />
+      <File FileName="mainproject/obj/Debug/mainproject.mainprojectPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="mainproject/MyPage.xaml.cs" Line="20" Column="1" />
+      <File FileName="mainproject/Savedatabase.cs" Line="46" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.mainproject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.669F1B08-109D-478D-B939-1F8EE44CD8E0" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

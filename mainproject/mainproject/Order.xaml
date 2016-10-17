@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="mainproject.Order" BackgroundColor="Olive">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="FillAndExpand"
+				HorizontalOptions="FillAndExpand"
+				Orientation="Vertical"
+				>
+			<StackLayout VerticalOptions="CenterAndExpand"
+				HorizontalOptions="Center"
+				Orientation="Vertical"
+				Spacing="15">
+			
+			
+				
+				<Entry x:Name="add"  HeightRequest="20" Placeholder="Address"/>
+				<Entry x:Name="Name" HeightRequest="30"  Text="enter your Name " Placeholder="UserName"/>
+				<Entry x:Name="Book" HeightRequest="40"  Text="Book Name " Placeholder="BookName"/>
+				<Entry x:Name="ID"   HeightRequest="50"  Text="Enter ID" Placeholder="BookID"/>
+
+
+
+				<Button Text="submit" HeightRequest="120" Clicked="save"/>
+			
+
+		</StackLayout>
+			</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

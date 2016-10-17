@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="mainproject.MyPage" >
+	<ContentPage.Content>
+		<ListView x:Name="ListView" RowHeight="60">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<StackLayout Padding="20" VerticalOptions="CenterAndExpand"
+					 HorizontalOptions="Center" Orientation="Horizontal" Spacing = "15">
+							<Label Text = "{Binding Name }"/>
+							<Label Text = "{Binding BookCost  }"/>
+							<Image Source ="{Binding imageName,StringFormat='{0.png'}"/>
+						</StackLayout>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</ContentPage.Content>
+</ContentPage>
